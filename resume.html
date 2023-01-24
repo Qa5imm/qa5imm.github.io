@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2723f43300.js" crossorigin="anonymous"></script>
+    <link href="output.css" rel="stylesheet">
+    <link rel="icon" href="https://i.ibb.co/t45BP5V/logo.png">
+    <title>Qasim's Resume</title>
+</head>
+<body class="bg-back">
+    <nav id="navbar" class="px-8 text-white flex justify-between sticky top-0 bg-back h-16 items-center md:mt-6 md:px-12">
+        <a href="index.html"><h1 class="font-bold cursor-pointer hover:text-blue text-2xl ">qaismmehmood.</h1></a>
+        
+        <div id="dropdown" class="relative block md:hidden">
+            <i class="fa-solid fa-bars text-2xl text-icons  border border-bord py-1 px-2 rounded cursor-pointer mt-2 mb-1" id="icon"></i>
+            <div id="menu" style="display: none;" class="absolute px-6 py-4 bg-resume_back w-30 rounded-lg right-0 ">
+                <ul class=" flex flex-col right-0" id="menu_list">
+                    <li class="whitespace-nowrap mb-2"><a href="index.html">About me</a> </li>
+                    <li class="whitespace-nowrap mb-2"> <a href="resume.html">Resume</a></li>
+                    <li class="whitespace-nowrap "> <a href="#contact-info">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="gap-x-16 text-xl hidden md:flex" id="nav_items">
+            <a href="index.html"><li  id="about" class="hover:underline hover:text-white cursor-pointer" >About me</li></a>
+            <a href="resume.html"><li id="resume" class="hover:underline hover:text-white cursor-pointer" >Resume</li></a>
+            <a href="#contact-info"><li id="contact" class="text-icons hover:underline hover:text-white cursor-pointer" >Contact</li></a>
+        </ul>
+    </nav>
+
+
+
+    <div id="resume-heading" class="bg-resume_back flex justify-center items-center p-6 mt-12 border-y-4 border-bord md:p-10">
+        <h1 class="text-4xl text-white">Resume</h1>
+    </div>
+
+    <section id="resume-details" class="mt-24 mx-6 grid grid-cols-1 gap-x-12 gap-y-24 md:grid-cols-2 md:mx-16">
+        <div id="details-education">
+            <h1 id="education-heading"class=" font-bold text-2xl text-white underline underline-offset-8 decoration-blue mb-16">Education</h1>
+            <div id="education-description" class="ml-8 md:ml-16">
+
+                <div id="description-school" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 text-sm rounded-full bg-bord hover:bg-blue mr-2">2016-2018</button> <span class="text-icons">The Educators</span>
+                    <div id="school-programme" class="flex flex-col ml-8 mt-6">
+                        <p id="programme-name"class="text-white text-xl mb-2">Matric</p>
+                        <p id="programme-courses" class="text-text text-sm">Courses:  Mathematics, Biology, Chemistry, Physics, English, Urdu, Pakistan Studies.</p>
+                    </div>
+                </div>
+                <div id="description-college"class=" border-b-4 border-bord border-l-4 pl-4 pt-6  pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 text-sm rounded-full bg-bord hover:bg-blue mr-2">2018-2020</button> <span class="text-icons">Punjab College</span>
+                    <div id="school-programme" class="flex flex-col ml-8 mt-6">
+                        <p id="programme-name"class="text-white text-xl mb-2">Fsc. (Pre-engineering)</p>
+                        <p id="programme-courses" class="text-text text-sm">Courses:  Mathematics, Chemistry, Physics, English, Urdu, Pakistan Studies.</p>
+                    </div>
+                </div>
+                <div id="description-college" class="border-b-4 border-bord border-l-4 pl-4 pt-6  pb-12 " >
+                    <button class="border border-blue text-white px-3 py-1 text-sm rounded-full bg-bord hover:bg-blue mr-2">2020-current</button> <span class="text-icons">LUMS</span>
+                    <div id="school-programme" class="flex flex-col ml-8 mt-6">
+                        <p id="programme-name"class="text-white text-xl mb-2">BS Computer Science</p>
+                        <p id="programme-courses" class="text-text text-sm">Courses: Object-Oriented Programming, Fundamentals of Computer Systems, Data Structures, Network-Centric Computing, Blockchain, Machine Learning, Database.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="details-awards">
+            <h1 id="awards-heading"class="font-bold text-2xl text-white underline underline-offset-8 decoration-blue mb-16">Awards and Achivenments</h1>
+            <div id="awards-description" class="ml-8 md:ml-16">
+
+                <div id="description-SOT" class=" border-b-4 border-bord border-l-4 pl-4  pt-6 pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2018</button> <span class="text-icons">The Educators</span>
+                    <div id="SOT-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-lg mb-2">Student of the year gold medal</p>
+                    </div>
+                </div>
+                <div id="description-college"class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2020</button> <span class="text-icons">Youth Affairs & Sports Department </span>
+                    <div id="school-programme" class="flex flex-col ml-6 mt-6">
+                        <p id="programme-name"class="text-white text-lg mb-2">Brozne Medal in speech competition in all punjab speech competition</p>
+                    </div>
+                </div>
+                <div id="description-college" class="border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 " >
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> <span class="text-icons">Intutive Courses by Rohan</span>
+                    <div id="school-programme" class="flex flex-col ml-6 mt-6">
+                        <p id="programme-name"class="text-white text-lg mb-2">Certificate and Cash prize on being top scorer in web dev bootcamp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="details-work">
+            <h1 id="work-heading"class="font-bold text-2xl text-white underline underline-offset-8 decoration-blue mb-16">Work Experiences</h1>
+            <div id="work-description" class="ml-8 md:ml-16">
+                <div id="work-1" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2018</button> <span class="text-icons">The Educators</span>
+                    <div id="1-name" class="flex flex-col ml-8 mt-6">
+                        <p class="text-white text-xl mb-2">House Head</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text  text-sm">Remained house head of Discipline for a year</li>
+                            <li  class="text-text  text-sm">Worked for students' progress and well being  in the house  </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="work-2" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 ">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2021</button> <span class="text-icons">LUMS Literary Society</span>
+                    <div id="2-name" class="flex flex-col ml-8 mt-6">
+                        <p class="text-white text-xl mb-2">Event Head</p>
+                        <ul class="list-disc ml-8">
+                            <li class="text-text  text-sm">Currenlty, I'm event head for Bethak- LLS falgship event</li>
+                            <li class="text-text  text-sm">Happens every month where we invite people all the over university to showcase their literary skills</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="work-3" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> <span class="text-icons">LUMS NOP</span>
+                    <div id="3-name" class="flex flex-col ml-8 mt-6">
+                        <p class="text-white text-xl mb-2">Volunteered Summer Session</p>
+                        <ul class="list-disc ml-8">
+                            <li class="text-text  text-sm">Last summer, I volunteered 15 days long NOP SCS</li>
+                            <li class="text-text  text-sm">It provides an opportunity for underprivileged students to join LUMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="details-skills">
+            <h1 id="skills-heading"class="font-bold text-2xl text-white underline underline-offset-8 decoration-blue mb-16">Skills</h1>
+            <div id="skills" class="ml-8 md:ml-16">
+                <div class="mb-4">
+                    <h1 class="text-lg text-white"> C++</h1>
+                    <progress id="progress" value="88" max="100" class="h-2 rounded-lg w-10/12 border border-bord "> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">React</h1>
+                    <progress id="progress" value="80" max="100" class="h-2 rounded-lg w-10/12  border border-bord"> </progress> 
+                </div>  
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">Python </h1>
+                    <progress id="progress" value="90" max="100" class="h-2 rounded-lg w-10/12 border border-bord "> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">JavaScript</h1>
+                    <progress id="progress" value="80" max="100" class="h-2 rounded-lg w-10/12 border border-bord "> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">Html5</h1>
+                    <progress id="progress" value="90" max="100" class="h-2 rounded-lg w-10/12 border border-bord "> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">Tailwind</h1>
+                    <progress id="progress" value="80" max="100" class="h-2 rounded-lg w-10/12 
+                    border border-bord  "> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">Node JS</h1>
+                    <progress id="progress" value="80" max="100" class="h-2 rounded-lg w-10/12  border border-bord"> </progress> 
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-lg text-white">API Consumption</h1>
+                    <progress id="progress" value="75" max="100" class="h-2 rounded-lg w-10/12  border border-bord"> </progress> 
+                </div>            
+            </div>
+        </div>
+        <div id="Projects" class="md:col-span-2">
+            <h1 id="skills-heading"class="font-bold text-2xl text-white underline underline-offset-8 decoration-blue mb-16">Projects</h1>
+            <div id="work-description" class="ml-8 md:ml-16">
+                
+                <div id="skills-1" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12  md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="1-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Consuming Public API to make a Weather App</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text text-sm">Developed a responsive Weather App using HTML, CSS, JavaScript and Public APIs</li>
+                            <li  class="text-text text-sm">Consumed <a target="_blank" href="https://openweathermap.org/api" class="hover:underline text-white">Weather API</a>  to display weather of the selected city </li>
+                        </ul>
+                        <div id="details-button" class="mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://qa5imm.github.io/weather_api.github.io/" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills-2" class="border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="2-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Responsive Resume Website</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text  text-sm">Developed a Responsive resume website using HTML, TailwindCSS and Javacscript</li>
+                        </ul>
+                        <div id="details-button" class=" mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://qa5imm.github.io/portfolio/index.html" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills-3" class="border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="3-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Todo List website</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text  text-sm">Developed a responsive website where you can add, mark or delete your everyday tasks</li>
+                            <li  class="text-text  text-sm">It's made using web technologies like HTML, CSS and Javacscript</li>
+                            <li  class="text-text  text-sm">Recently installed Local storage so you tasks remain save.</li>
+                        </ul>
+                        <div id="details-button" class=" mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://qa5imm.github.io/todolist-js.github.io/" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills-4" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="4-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Client Server Chat Application</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Implemented a chat application in Python using socket programming and threading </li>
+                            <li  class="text-text mb-2 text-sm"> The application allows the clients to join and disconnect from the server and exchange messages and files between active users through the server </li>
+                            <li  class="text-text mb-2 text-sm">  Ensured reliable transport of packets over UDP through sliding window mechanism, cumulative ack, timer, and checksum  </li>
+                        </ul>
+                   
+                    </div>
+                </div>
+
+                <div id="skills-5" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="5-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Intra-Domain Routing</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Implemented Link-State Routing to forward packets along the shortest path through the network by considering unexpected link or router failures, changing link costs, and new connections between routers and clients </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <div id="skills-6" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="6-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Peer-Peer File Sharing System</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Built a peer-peer file sharing system using a Distributed Hash Table based key-value storage system </li>
+                            <li  class="text-text mb-2 text-sm"> The system allows users to join or leave the system and transfer files to the appropriate node upon joining/leaving of another node </li>
+                            <li  class="text-text mb-2 text-sm"> Allows the users to get/put files on the nodes in the distributed system </li>
+                            <li  class="text-text mb-2 text-sm"> The system is made resilient to node failures by replicating files of each node on its successor node and updating failed node’s successor and predecessor after detection of the failed node through pinging </li>
+                        </ul>
+                   
+                    </div>
+                </div>
+
+                <div id="skills-7" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2020</button> 
+                    <div id="7-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Facebook Clone</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Developed a basic facebook clone using C++, with signup login system </li>
+                            <li  class="text-text mb-2 text-sm"> It comes with email and password strenght verification. Furthermore,it allows you to post your everyday work.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="skills-8" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="8-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Facegram</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Built a  scalable full stack web application where you can make friends around the globe, share post and chat</li>
+                            <li  class="text-text mb-2 text-sm"> Implelemted using MERN stack however, MySQL is used instaed of MongoDb  </li>
+                            <li  class="text-text mb-2 text-sm"> Comes with an in built meessenger app which is implemented using <a href="https://socket.io/" target="_blank" class="text-white hover:underline">socket.io</a> </li>
+                            <li  class="text-text mb-2 text-sm"> Currenlty hosted on AWS and is made resilient to system crashes using pm2, therefore has 100% uptime</li>
+                        </ul>
+                        <div id="details-button" class="mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://github.com/Qa5imm/facegram" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills-9" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="9-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">Library Management System</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> Built a scalable full stack web application Libaray Management System </li>
+                            <li  class="text-text mb-2 text-sm"> Implelemted using MERN stack however, MySQL is used instaed of MongoDb  </li>
+                            <li  class="text-text mb-2 text-sm"> Comes with two actors- Librarain and students </li>
+                            <li  class="text-text mb-2 text-sm"> Currenlty hosted on AWS and is made resilient to system crashes using pm2, therefore has 100% uptime</li>
+                        </ul>
+                        <div id="details-button" class="mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://github.com/Qa5imm/Library_Management_system" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills-10" class=" border-b-4 border-bord border-l-4 pl-4 pt-6 pb-12 md:w-10/12">
+                    <button class="border border-blue text-white px-3 py-1 rounded-full bg-bord hover:bg-blue mr-2">2022</button> 
+                    <div id="10-name" class="flex flex-col ml-6 mt-6">
+                        <p class="text-white text-xl mb-2">GLobal Gossip</p>
+                        <ul class="list-disc ml-8">
+                            <li  class="text-text mb-2 text-sm"> A front-end application where you can post your daily Gossips and react to others </li>
+                            <li  class="text-text mb-2 text-sm"> Implelemted using React (Typescript) and backend in  <a href="https://firebase.google.com/" class="text-white hover:underline" >Firebase</a>  </li>
+                            <li  class="text-text mb-2 text-sm"> Currenlty hosted using firebase </li>
+                        </ul>
+                        <div id="details-button" class="mt-12">
+                            <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-4 py-2 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="https://sharedthoughts-aa02a.web.app/" class="text-md">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="resume-pdf" class="flex justify-center mt-24">
+        <button class="shadow-black shadow-[0px_5px_10px] border border-blue text-white px-8 py-3 rounded-full bg-bord hover:bg-blue"><a target="_blank" href="qasim.pdf" class="text-md md:text-lg">Download Resume</a></button>
+    </div>
+    <footer class=" mt-28 border-t-4 border-bord pt-3 flex flex-col items-center justify-center pb-2 bg-footer_bg md:flex-row">
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="https://www.facebook.com/shiekh.qasim.378/">Facebook</a>  <span class="text-lg text-icons hidden md:block" >|</span>
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="https://www.instagram.com/s_qa5im/">Instagram</a> <span class="text-lg text-icons hidden md:block" >|</span>
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="https://github.com/Qa5imm">Linkedin</a><span class="text-lg text-icons hidden md:block" >|</span>
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="https://github.com/Qa5imm">Github</a><span class="text-lg text-icons hidden md:block" >|</span>
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="https://wa.me/03216573454">Whats app</a> <span class="text-lg text-icons hidden md:block" >|</span>
+        <a class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="mailto:qm789586@gmail.com?cc=24100130@lums.edu.pk">Gmail</a>     <span class="text-lg text-icons hidden md:block" >|</span>
+        <a id="contact-info" class="mx-8 text-icons text-lg hover:text-white " target="_blank" href="mailto:24100130@lums.edu.pk?cc=qm789586@gmail.com">Outlook</a> 
+    </footer>
+    <script  src="script.js"></script>
+
+    
+</body>
+<script>
+    let about= document.getElementById("about")
+    let resume= document.getElementById("resume")
+    let conatct= document.getElementById("contact")
+
+
+    let page_link= window.location.href
+    filename= page_link.split("/").pop()
+    console.log(filename)
+    
+    if (filename === "" || filename === "index.html" ){
+
+        about.style.color= "white"
+        resume.style.color= "rgb(155,155,155)"
+        conatct.style.color="rgb(155,155,155)"
+
+    }
+    else{
+        
+        about.style.color= "rgb(155,155,155)"
+        resume.style.color= "white"
+        conatct.style.color="rgb(155,155,155)"
+
+    }
+</script>
+</html>
